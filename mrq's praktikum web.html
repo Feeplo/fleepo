@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMW M5 F90</title>
+    <style>
+ body {
+    background-color: #414141; /* Warna latar belakang seluruh halaman */
+    color: rgb(255, 255, 255);
+    font-family:sans-serif
+}
+
+ header img {
+    position: absolute; /* Memposisikan gambar di atas header */
+    width: 100%; /* Mengatur lebar gambar agar memenuhi lebar header */
+    height: 100%; /* Mengatur tinggi gambar agar memenuhi tinggi header */
+    object-fit: cover; /* Mengatur gambar agar memenuhi area tanpa merusak proporsi */
+    z-index: 1; /* Menempatkan gambar di belakang teks */
+}
+
+ header {
+    width: 100%; 
+    box-sizing: border-box; /* Important for accurate width calculations */
+    position: relative; /* Menempatkan header sebagai referensi posisi untuk elemen anak */
+    height: 450px; /* Tinggi header */
+    color: rgb(255, 255, 255); /* Mengatur warna teks di dalam header */
+    display: flex; /* Menggunakan Flexbox untuk mengatur layout */
+    flex-direction: column; /* Tata letak vertikal item*/
+    align-items: center; /* Mengatur item agar terpusat secara vertikal */
+    justify-content: center; /* Mengatur item agar terpusat secara horizontal */
+    text-align: center; /* Mengatur teks agar terpusat */
+    overflow: hidden; /* Menyembunyikan bagian gambar yang melampaui area header */
+}
+section#gallery {
+    padding: px; /* Menambahkan ruang di sekitar galeri */
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Menghilangkan jarak antar border */
+}
+
+td {
+    padding: 10px; /* Menambahkan ruang di dalam sel */
+    text-align: center; /* Mengatur teks agar berada di tengah */
+}
+
+section#gallery img {
+    width: 100%; /* Mengatur gambar agar memenuhi lebar sel */
+    height: auto; /* Mempertahankan rasio aspek gambar */
+    border-radius: 8px; /* Membuat sudut gambar membulat */
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); /* Menambahkan bayangan pada gambar */
+    transition: transform 0.2s, box-shadow 0.1s; /* Menambahkan efek transisi */
+}
+
+section#gallery img:hover {
+    transform: scale(1.25); /* Memperbesar gambar saat hover */
+    box-shadow: 0 8px 25px rgba(14, 129, 39, 0.699); /* Mengubah bayangan saat hover */
+}
+
+h2 {
+    text-align: left; /* Mengatur judul agar terpusat */
+    margin-bottom: 20px; /* Menambahkan jarak di bawah judul */
+}
+
+header h1, header ul {
+    position: relative; /* Agar teks dan daftar berada di atas gambar */
+    z-index: 2; /* Menempatkan teks dan daftar di atas gambar */
+}
+
+header ul {
+    list-style-type: none; /* Menghilangkan bullet pada daftar */
+    display: flex; /* Menggunakan Flexbox untuk menyusun item daftar secara horizontal */
+    justify-content: center; /* Mengatur item daftar agar terpusat secara horizontal */
+    
+}
+
+header ul li {
+    margin: 0 15px; /* Menambahkan jarak horizontal antar item daftar */
+}
+
+main {
+    padding: 20px; /* Menambahkan ruang di dalam elemen main */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="c:\Users\USER\Downloads\P90127865-bmw-headquarters-2013-07-2013-599px.jpg"/>
+        <h1>BMW M5 Competition F90</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#audio">V8 Sound</a></li>
+            <li><a href="https://wa.me/088211386009" target="_blank">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About the BMW M5 Competition F90</h2>
+            <p>BMW M5 Competition F90 adalah versi performa tinggi dari BMW M5 standar, yang dirancang untuk menawarkan pengalaman berkendara yang menggembirakan dengan tetap mempertahankan kemewahan dan kenyamanan yang menjadi ciri khas BMW. Berikut adalah beberapa detail penting tentang BMW M5 Competition F90:</p>
+            <h2>Overview</h2>
+            <p>Model: BMW M5 Competition (F90)
+                Tahun Produksi: Generasi F90 diperkenalkan pada tahun 2017 dan versi M5 Competition menyusul pada tahun 2018.
+                Gaya Tubuh: Sedan</p>
+                <h2>Tranmisi</h2>
+                <p>Mobil ini memiliki transmisi otomatis 8-percepatan yang menyediakan pergantian gigi yang cepat dan halus.</p>
+                <h2>Drivetrain</h2>
+                    <p>M5 Competition hadir dengan sistem all-wheel-drive M xDrive dari BMW, yang meningkatkan traksi dan stabilitas, terutama saat berkendara secara agresif.</p>
+        </section>
+        
+        <section id="features">
+            <h2>Features</h2>
+            <table border="1" width="100%" style="border-collapse: collapse;">
+                <tr>
+                    <th>Feature</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Mesin</td>
+                    <td>Mesin V8 twin-turbo 4,4 liter dengan 617 hp</td>
+                </tr>
+                <tr>
+                    <td>Akselerasi</td>
+                    <td>0-60 mph hanya dalam 3,1 detik</td>
+                </tr>
+                <tr>
+                    <td>Suspensi</td>
+                    <td>Suspensi M Adaptif untuk meningkatkan kenyamanan dan kontrol</td>
+                </tr>
+                <tr>
+                    <td>Sistem Penggerak</td>
+                    <td>Sistem penggerak semua roda M xDrive BMW</td>
+                </tr>
+                <tr>
+                    <td>Teknologi Sistem</td>
+                    <td>Bantuan pengemudi canggih dan fitur infotainment</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <table>
+                <tr>
+                    <td><img src="c:\FOLDER 2.1\bmw-m5-f90-cs-2022-619247.jpg" alt="BMW M5 1" /></td>
+                    <td><img src="c:\FOLDER 2.1\bmw-m5-f90-cs-2022-619261.jpg" alt="BMW M5 2" /></td>
+                    <td><img src="c:\FOLDER 2.1\bmw-m5-f90-cs-2022-619169.jpg" alt="BMW M5 3" /></td>
+                    <td><img src="c:\FOLDER 2.1\bmw-m5-f90-cs-2022-619193.jpg" alt="BMW M5 4" /></td>
+                    <td><img src="c:\FOLDER 2.1\bmw-m5-f90-cs-2022-619201.jpg" alt="BMW M5 5" /></td>
+                    <td><img src="c:\FOLDER 2.1\bmw-m5-f90-cs-2022-619264.jpg" alt="BMW M5 6" /></td>
+                </tr>
+            </table>
+        </section>
+                
+        <section id="audio">
+            <h2>V8 Engine</h2>
+            <audio controls>
+                <source src="c:\Users\USER\Downloads\sdta0011-interior-car-bmw-s3-drive-medium-speed-191969.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+        
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>For inquiries, please <a href="mailto:flolou409@gmail.com"> email us </a></p>
+        </section>
+    </main>
+</body>
+</html>
